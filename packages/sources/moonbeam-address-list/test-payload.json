@@ -1,0 +1,13 @@
+{
+  "requests": [
+    {
+      "network": "moonbeam",
+      "chainId": "mainnet"
+    },
+    {
+      "network": "moonbeam",
+      "chainId": "mainnet",
+      "endpoint": "address"
+    }
+  ]
+}

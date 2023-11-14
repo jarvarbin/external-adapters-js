@@ -1,16 +1,43 @@
 {
-    "requests": [
-        {
-            "base": "IWM",
-            "endpoint": "stock"
-        },
-        {
-            "base": "IB01",
-            "endpoint": "uk_etf"
-        },
-        {
-            "base": "C3M",
-            "endpoint": "etf"
-        }
-    ]
+ "requests": [
+  {
+   "base": "IWM"
+  },
+  {
+   "base": "IWM",
+   "endpoint": "stock"
+  },
+  {
+   "base": "IB01",
+   "endpoint": "uk_etf"
+  },
+  {
+   "base": "C3M",
+   "endpoint": "etf"
+  },
+  {
+   "base": "LINK",
+   "quote": "USD",
+   "endpoint": "crypto"
+  },
+  {
+   "base": "LINK",
+   "quote": "USD",
+   "endpoint": "price"
+  },
+  {
+   "base": "ETH",
+   "endpoint": "eod"
+  },
+  {
+   "from": "GBP",
+   "to": "USD",
+   "endpoint": "forex"
+  },
+  {
+   "from": "WTI",
+   "to": "USD",
+   "endpoint": "commodities"
+  }
+ ]
 }
