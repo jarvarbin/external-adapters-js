@@ -7232,6 +7232,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@chainlink/oanda-adapter", "workspace:packages/sources/oanda"],\
             ["@chainlink/external-adapter-framework", "npm:0.33.2"],\
+            ["@types/jest", "npm:27.5.2"],\
             ["@types/node", "npm:16.11.68"],\
             ["axios", "npm:0.27.2"],\
             ["decimal.js", "npm:10.4.3"],\
